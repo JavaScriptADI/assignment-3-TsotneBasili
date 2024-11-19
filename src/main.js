@@ -133,7 +133,6 @@ for (let i = 0; i < 8; i++) {
 console.log(password);
 
 
-
 // 14 [Challenge] "There is a man somewhere, Find him", Below code generates string with 2 possible characters, " " and "?". Write a code that will find the position of "?".
 let str = "";
 
@@ -179,4 +178,3 @@ for (let i = 0; i < 10; i++) {
         }
     }
 }
-
