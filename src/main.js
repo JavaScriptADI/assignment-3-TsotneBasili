@@ -165,19 +165,19 @@ for (let i = 0; i < 10; i++) {
 
 
 // 15 [Challenge] "Mystery Room", Write a code that will generate 2d representation of a room. you should generate an empty space, wall or a mystery box. You can use any characters you want. The room should be 10x10. The room should have 10 walls, 1 mystery boxes and the rest should be empty space, mystey box location should be random!
-let mysteryBox = false
-let line = ""
+let mysteryBox = false;
+let line = "";
 
 for (let i = 0; i < 10; i++) {
     if (i === 0 || i === 9) {
         line = "##########"
-        console.log(line)
+        console.log(line);
     } else {
         if (mysteryBox === false) {
             let trueOrFalse = Math.random();
             if (trueOrFalse > 0.5) {
                 let position = Math.floor(Math.random() * 10);
-                let line2 = "#        #"
+                let line2 = "#        #";
                 if (position === 9 || position === 0){
                     position = 5;
                     line2 = line2.slice(0, position) + "?" + line2.slice(position);
@@ -187,10 +187,10 @@ for (let i = 0; i < 10; i++) {
                 console.log (line2);
                 mysteryBox = true;
             } else {
-                console.log("#        #")
+                console.log("#        #");
              }
         } else {
-           console.log("#        #")
+           console.log("#        #");
         }
     }
 }
