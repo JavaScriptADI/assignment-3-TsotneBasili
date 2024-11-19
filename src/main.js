@@ -7,9 +7,9 @@ for (let i = 1; i<=10; i++) {
 
 // 2
 for (let i = 10; i>=1; i--) {
-    console.log(i);
-}
-
+    console.log(i); // error
+} //errorr
+// error
 
 // 3
 let sum = 0; // creating variable named sum equal to zero
