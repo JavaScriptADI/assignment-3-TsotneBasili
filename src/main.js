@@ -5,12 +5,10 @@ for (let i = 1; i<=10; i++) {
 }
 
 
-
 // 2
 for (let i = 10; i>=1; i--) {
     console.log(i);
 }
-
 
 
 // 3
@@ -21,14 +19,11 @@ for (let i = 1; i <= 50; i++) { // creating for loop for i variable which is num
 console.log(sum); // printing it to console to see the result
 
 
-
 // 4
 for (let i = 0; i < 10; i += 2) {
     console.log(i);
 }
-
 // there will be 5 iterations starting from 0 followed by 2, 4, 6, 8, because as i is incremented by two on every iteration it will reach 10 in 5 iterations
-
 
 
 // 5 break - break statement in programming is used to terminate a loop immediately when a specific condition is met.
@@ -40,10 +35,8 @@ for (let i=0; i < 10; i++) {
 }
 
 
-
 // 6 continue - continue statement in programming is used within loops to skip the rest of the code in the current iteration and 
 // move to the next iteration of the loop.
-
 for (let i=0; i < 10; i++) {
     if (i % 2 == 0) {
         continue;
@@ -78,13 +71,11 @@ for (let i = 0; i < 100; i++) {
 }
 
 
-
 // 9 write a program that prints 100 random numbers (each random number should be in the range 1-100).
 for (let i = 0; i < 100; i++) {
     let randomNum = Math.floor(Math.random() * 100) + 1;
     console.log(randomNum);
 }
-
 
 
 // 10 write a program that prints the sum of all even numbers between 1 and 1000.
@@ -99,7 +90,6 @@ for (let i = 0; i < 1000; i++) {
 console.log(sum1);
 
 
-
 // 11 write a program that prints the sum of all numbers between 1 and 1000 that are divisible by 3 or 5.
 let sum2 = 0;
 
@@ -112,9 +102,7 @@ for (let i = 0; i < 1000; i++) {
 console.log(sum2);
 
 
-
 // 12 write a program that prints the sum of all numbers between 1 and 1000 that are divisible by both 3 and 5.
-
 let sum3 = 0;
 
 for (let i = 0; i < 1000; i++) {
@@ -124,7 +112,6 @@ for (let i = 0; i < 1000; i++) {
 }
 
 console.log(sum3);
-
 
 
 // 13 [Challenge] Generate Random Password. HINTS - Use ASCII codes to generate random characters. Search how to get string from character code
@@ -148,7 +135,6 @@ console.log(password);
 
 
 // 14 [Challenge] "There is a man somewhere, Find him", Below code generates string with 2 possible characters, " " and "?". Write a code that will find the position of "?".
-
 let str = "";
 
 for (let i = 0; i < 10; i++) {
@@ -161,7 +147,6 @@ for (let i = 0; i < 10; i++) {
         console.log(i);
     }
 }
-
 
 
 // 15 [Challenge] "Mystery Room", Write a code that will generate 2d representation of a room. you should generate an empty space, wall or a mystery box. You can use any characters you want. The room should be 10x10. The room should have 10 walls, 1 mystery boxes and the rest should be empty space, mystey box location should be random!
